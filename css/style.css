@@ -1,4 +1,10 @@
-
+.logo-icon{
+	margin-top: 20px; 
+	font-size: 30px; 
+	text-decoration: underline; 
+	color: #312b;
+	font-weight: 600;
+}
 /*
 Template Name: candy
 Template URI: http://demo.agnidesigns.com/Candy-HTML/index.html

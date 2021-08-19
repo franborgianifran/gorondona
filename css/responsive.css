@@ -190,10 +190,6 @@
 	.post-thumbnail img {
 		width: 200%;
 	}
-	.header-icon .logo-dark, .header-icon .logo-lite{
-		position: relative;
-		top: 0px;
-	}
 }
 
 @media (max-width: 320px) {
@@ -219,8 +215,20 @@
 @media(max-width: 458px){
 	.header-icon .logo-dark, .header-icon .logo-lite{
 		font-size: 16px;
-		position: relative;
-		top: 15px;
 	}
-	
+	.header-icon img{
+		width: 200px;
+	}
+}
+@media(max-width: 390px){
+	.header-icon img{
+		width: 150px;
+		margin-top: 10px;
+	}
+}
+@media(max-width: 360px){
+	.header-icon img{
+		width: 130px;
+		margin-top: 13px;
+	}
 }
